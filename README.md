@@ -1,5 +1,7 @@
 # ToolBox #
-[![Build Status](https://app.bitrise.io/app/9be22866929aecca/status.svg?token=50wjG5UHA1YclBa1GUb0HA&branch=master)](https://app.bitrise.io/app/9be22866929aecca)
+|Build|Coverage|
+|:---:|:------:|
+|[![Build Status](https://app.bitrise.io/app/9be22866929aecca/status.svg?token=50wjG5UHA1YclBa1GUb0HA&branch=master)](https://app.bitrise.io/app/9be22866929aecca)| |
 
 ### How to use 
 #### TBQuickSelectionPresentationController
