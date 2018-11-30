@@ -26,7 +26,7 @@ public class TBTargetAction<T: NSObjectProtocol>: NSObject, TBTargetActionType {
     }
 }
 
-extension TBTargetAction where T: UIControl {
+public extension TBTargetAction where T: UIControl {
     func tbRemove() {
         if let target = target {
             target.tbRemoveAction(self)
