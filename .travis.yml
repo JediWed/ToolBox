@@ -3,3 +3,5 @@ osx_image: xcode10.1
 xcode_workspace: ToolBox.xcworkspace
 xcode_scheme: ToolBox
 xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
