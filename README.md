@@ -1,6 +1,6 @@
 # ToolBox #
 |Build|Coverage|License|
-|:---:|:------:|
+|:---:|:------:|:-----:|
 |[![Build Status](https://travis-ci.org/JediWed/ToolBox.svg?branch=master)](https://travis-ci.org/JediWed/ToolBox)| [![codecov](https://codecov.io/gh/JediWed/ToolBox/branch/master/graph/badge.svg)](https://codecov.io/gh/JediWed/ToolBox) | [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JediWed/ToolBox/blob/master/LICENSE) |
 ### How to use 
 #### TBQuickSelectionPresentationController
