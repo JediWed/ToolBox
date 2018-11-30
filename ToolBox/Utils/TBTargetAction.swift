@@ -95,3 +95,10 @@ public extension UIButton {
         return self.tbAddActionForControlEvents(.touchUpInside, action: action)
     }
 }
+
+public extension UISwitch {
+    @discardableResult
+    func tbAddAction<T: UIControl>(_ action: @escaping (T) -> Void) -> TBTargetAction<T> {
+        return self.tbAddActionForControlEvents(.valueChanged, action: action)
+    }
+}
