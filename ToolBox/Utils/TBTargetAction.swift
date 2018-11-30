@@ -12,7 +12,7 @@ private protocol TBTargetActionType: class {
     var actionSelector: Selector { get }
 }
 
-class TBTargetAction<T: NSObjectProtocol>: NSObject, TBTargetActionType {
+public class TBTargetAction<T: NSObjectProtocol>: NSObject, TBTargetActionType {
     fileprivate let actionSelector: Selector = #selector(TBTargetAction<T>.action(_:))
     fileprivate let actionBlock: (T) -> Void
     fileprivate weak var target: T?
@@ -63,7 +63,7 @@ private extension NSObjectProtocol {
     }
 }
 
-extension UIControl {
+public extension UIControl {
 
     @discardableResult
     func tbAddActionForControlEvents<T: UIControl>(_ controlEvents: UIControl.Event,
@@ -89,9 +89,9 @@ extension UIControl {
 
 }
 
-extension UIButton {
+public extension UIButton {
     @discardableResult
-    func addAction<T: UIControl>(_ action: @escaping (T) -> Void) -> TBTargetAction<T> {
+    func tbAddAction<T: UIControl>(_ action: @escaping (T) -> Void) -> TBTargetAction<T> {
         return self.tbAddActionForControlEvents(.touchUpInside, action: action)
     }
 }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ToolBox'
-  s.version = '1.0'
+  s.version = '1.1'
   s.summary = 'Private Framework for Common Features'
   s.homepage = 'https://www.turcan.de'
   s.authors = { 'Ediz Turcan' => 'ediz.turcan@icloud.com' }
