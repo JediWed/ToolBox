@@ -1,7 +1,7 @@
 # ToolBox #
 |Build|Coverage|
 |:---:|:------:|
-|[![Build Status](https://travis-ci.org/JediWed/ToolBox.svg?branch=master)](https://travis-ci.org/JediWed/ToolBox)| ... |
+|[![Build Status](https://travis-ci.org/JediWed/ToolBox.svg?branch=master)](https://travis-ci.org/JediWed/ToolBox)| [![codecov](https://codecov.io/gh/JediWed/ToolBox/branch/master/graph/badge.svg)](https://codecov.io/gh/JediWed/ToolBox) |
 ### How to use 
 #### TBQuickSelectionPresentationController
 1. Create a class inherited from UITableViewController and implement UIViewControllerTransitioningDelegate
