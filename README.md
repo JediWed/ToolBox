@@ -1,8 +1,7 @@
 # ToolBox #
 |Build|Coverage|
 |:---:|:------:|
-|[![Build Status](https://app.bitrise.io/app/9be22866929aecca/status.svg?token=50wjG5UHA1YclBa1GUb0HA&branch=master)](https://app.bitrise.io/app/9be22866929aecca)| |
-
+|[![Build Status](https://app.bitrise.io/app/699653c285a0beac/status.svg?token=IcDHJirJR0Otm1VP5FT3Cw&branch=master)](https://app.bitrise.io/app/699653c285a0beac)| |
 ### How to use 
 #### TBQuickSelectionPresentationController
 1. Create a class inherited from UITableViewController and implement UIViewControllerTransitioningDelegate
