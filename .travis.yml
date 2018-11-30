@@ -1,5 +1,4 @@
 language: objective-c
-xcode_project: ToolBox.xcworkspace
+xcode_workspace: ToolBox.xcworkspace
 xcode_scheme: ToolBox
 xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
-podfile: Podfile
