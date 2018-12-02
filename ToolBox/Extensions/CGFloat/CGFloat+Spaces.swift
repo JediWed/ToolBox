@@ -15,7 +15,7 @@ public extension CGFloat {
     static let tbSpacingMiddle: CGFloat = 16
     static let tbSpacingLarge: CGFloat = 32
 
-    static let tbSpacingCellHorizontalPadding: CGFloat = 20
+    static let tbSpacingCellHorizontalPadding: CGFloat = 16
 
     static let tbStepperTextFieldWidth: CGFloat = 44
 

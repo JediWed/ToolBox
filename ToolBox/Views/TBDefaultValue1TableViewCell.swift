@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class TbDefaultValue1TableViewCell: UITableViewCell {
+public class TBDefaultValue1TableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .value1, reuseIdentifier: reuseIdentifier)
     }
