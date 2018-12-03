@@ -15,7 +15,6 @@ public class TBDefaultValue1TableViewCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 1
         label.allowsDefaultTighteningForTruncation = false
-        label.backgroundColor = .red
         return label
     }()
     
@@ -24,7 +23,6 @@ public class TBDefaultValue1TableViewCell: UITableViewCell {
         label.textAlignment = .right
         label.numberOfLines = 1
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.backgroundColor = .blue
         return label
     }()
     
