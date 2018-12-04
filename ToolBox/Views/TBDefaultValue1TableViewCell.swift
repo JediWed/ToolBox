@@ -15,6 +15,7 @@ public class TBDefaultValue1TableViewCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 1
         label.allowsDefaultTighteningForTruncation = false
+        label.accessibilityIdentifier = "tbdefaultvalue1tableviewcell_titlelabel"
         return label
     }()
 
@@ -23,6 +24,7 @@ public class TBDefaultValue1TableViewCell: UITableViewCell {
         label.textAlignment = .right
         label.numberOfLines = 1
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.accessibilityIdentifier = "tbdefaultvalue1tableviewcell_detaillabel"
         return label
     }()
 

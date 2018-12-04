@@ -29,6 +29,7 @@ public class TBTextFieldTableViewCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 1
         label.allowsDefaultTighteningForTruncation = false
+        label.accessibilityIdentifier = "tbtextfieldtableviewcell_titlelabel"
         return label
     }()
 
