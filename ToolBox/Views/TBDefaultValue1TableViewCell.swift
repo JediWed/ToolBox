@@ -17,7 +17,7 @@ public class TBDefaultValue1TableViewCell: UITableViewCell {
         label.allowsDefaultTighteningForTruncation = false
         return label
     }()
-    
+
     public let detailLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .right
@@ -25,16 +25,16 @@ public class TBDefaultValue1TableViewCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
-    
+
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
+
         textLabel?.isHidden = true
         detailTextLabel?.isHidden = true
-        
+
         self.contentView.addSubview(titleLabel)
         self.contentView.addSubview(detailLabel)
-        
+
         addConstraints([
             NSLayoutConstraint(item: titleLabel, attribute: .top, relatedBy: .equal,
                                toItem: contentView, attribute: .top, multiplier: 1, constant: 0),
@@ -54,11 +54,11 @@ public class TBDefaultValue1TableViewCell: UITableViewCell {
                                toItem: contentView, attribute: .bottom, multiplier: 1, constant: 0)
             ])
     }
-    
+
     public required init?(coder aDecoder: NSCoder) {
         fatalError("Do not use this initializer")
     }
-    
+
     public override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
