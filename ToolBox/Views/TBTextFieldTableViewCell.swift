@@ -20,7 +20,7 @@ public class TBTextFieldTableViewCell: UITableViewCell {
         let textField = UITextField()
         textField.textAlignment = .right
         textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.accessibilityIdentifier = "textField"
+        textField.accessibilityIdentifier = "tbtextfieldtableviewcell_textfield"
         return textField
     }()
 
