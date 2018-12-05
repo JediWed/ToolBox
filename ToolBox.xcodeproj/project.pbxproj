@@ -13,6 +13,7 @@
 		9A21388921B173F900B360EC /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21388821B173F900B360EC /* UIColorTests.swift */; };
 		9AB1755E21B13CA5001BEF89 /* ToolBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1755421B13CA4001BEF89 /* ToolBox.framework */; };
 		9AB1756521B13CA5001BEF89 /* ToolBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB1755721B13CA4001BEF89 /* ToolBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB1FDF621B8376F00E471A3 /* UIColor+Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1FDF521B8376F00E471A3 /* UIColor+Adjust.swift */; };
 		9AF7B10B21B13E1400658DF1 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7B10A21B13E1400658DF1 /* UIColor+Hex.swift */; };
 		9AF7B10E21B13E4D00658DF1 /* UITableView+EmptyTableMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7B10D21B13E4D00658DF1 /* UITableView+EmptyTableMessage.swift */; };
 		9AF7B11221B13EAA00658DF1 /* UIView+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7B11121B13EAA00658DF1 /* UIView+Rounded.swift */; };
@@ -57,6 +58,7 @@
 		9AB1755821B13CA4001BEF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB1755D21B13CA5001BEF89 /* ToolBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB1756421B13CA5001BEF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB1FDF521B8376F00E471A3 /* UIColor+Adjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Adjust.swift"; sourceTree = "<group>"; };
 		9AF7B10A21B13E1400658DF1 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		9AF7B10D21B13E4D00658DF1 /* UITableView+EmptyTableMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+EmptyTableMessage.swift"; sourceTree = "<group>"; };
 		9AF7B11121B13EAA00658DF1 /* UIView+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Rounded.swift"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				9AF7B10A21B13E1400658DF1 /* UIColor+Hex.swift */,
+				9AB1FDF521B8376F00E471A3 /* UIColor+Adjust.swift */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 			files = (
 				9AF7B11E21B13FB500658DF1 /* ReusableIdentifierProtocol.swift in Sources */,
 				9AF7B10E21B13E4D00658DF1 /* UITableView+EmptyTableMessage.swift in Sources */,
+				9AB1FDF621B8376F00E471A3 /* UIColor+Adjust.swift in Sources */,
 				9AF7B13521B142CF00658DF1 /* TBLoadingButton.swift in Sources */,
 				9AF7B12621B140D300658DF1 /* TBQuickSelectionPresentationController.swift in Sources */,
 				9AF7B12B21B1418D00658DF1 /* TBTextFieldTableViewCell.swift in Sources */,
