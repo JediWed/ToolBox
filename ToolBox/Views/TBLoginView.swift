@@ -206,6 +206,15 @@ public class TBLoginView: UIView {
             self.frame.origin.y = 0
         }
     }
+    
+    public func set(username: String, password: String) {
+        self.usernameField.text = username
+        self.passwordField.text = password
+    }
+    
+    public func fireLoginEvent() {
+        self.loginButton.sendActions(for: .touchUpInside)
+    }
 
 }
 
