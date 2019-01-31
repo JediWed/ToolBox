@@ -53,4 +53,16 @@ open class TBLoginViewController: UIViewController, TBLoginViewDelegate, TBLogin
     open func loginButtonPressed(loginButton: TBLoadingButton, login: String?, password: String?) {
 
     }
+
+    open func set(username: String, password: String) {
+        if let loginView = self.view as? TBLoginView {
+            loginView.set(username: username, password: password)
+        }
+    }
+
+    open func fireLoginEvent() {
+        if let loginView = self.view as? TBLoginView {
+            loginView.loginButton.sendActions(for: .touchUpInside)
+        }
+    }
 }

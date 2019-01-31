@@ -12,11 +12,11 @@ public extension UIColor {
     func tbLighter(by percentage: CGFloat = 30.0) -> UIColor? {
         return self.tbAdjust(by: abs(percentage) )
     }
-    
+
     func tbDarker(by percentage: CGFloat = 30.0) -> UIColor? {
         return self.tbAdjust(by: -1 * abs(percentage) )
     }
-    
+
     func tbAdjust(by percentage: CGFloat = 30.0) -> UIColor? {
         var red: CGFloat = 0, green: CGFloat = 0, blue: CGFloat = 0, alpha: CGFloat = 0
         if self.getRed(&red, green: &green, blue: &blue, alpha: &alpha) {

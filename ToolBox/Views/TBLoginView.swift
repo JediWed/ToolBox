@@ -63,7 +63,7 @@ public class TBLoginView: UIView {
         return textf
     }()
 
-    fileprivate let loginButton: TBLoadingButton = {
+    public let loginButton: TBLoadingButton = {
         let wlb = TBLoadingButton()
         wlb.translatesAutoresizingMaskIntoConstraints = false
         wlb.backgroundColor = .clear
@@ -206,12 +206,12 @@ public class TBLoginView: UIView {
             self.frame.origin.y = 0
         }
     }
-    
+
     public func set(username: String, password: String) {
         self.usernameField.text = username
         self.passwordField.text = password
     }
-    
+
     public func fireLoginEvent() {
         self.loginButton.sendActions(for: .touchUpInside)
     }
