@@ -131,7 +131,7 @@ public class TBLoginView: UIView {
             self.addSubview(logoView)
             self.addConstraints([
                 NSLayoutConstraint(item: logoView, attribute: .centerX, relatedBy: .equal,
-                                   toItem: self, attribute: .centerX, multiplier: 1, constant: .tbSpacingLarge),
+                                   toItem: self, attribute: .centerX, multiplier: 1, constant: 0),
                 NSLayoutConstraint(item: logoView, attribute: .width, relatedBy: .equal,
                                    toItem: self, attribute: .width, multiplier: 1, constant: -.tbSpacingLarge),
                 NSLayoutConstraint(item: logoView, attribute: .top, relatedBy: .equal,
