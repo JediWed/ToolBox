@@ -80,7 +80,7 @@ public extension UIControl {
     }
 
     func tbRemoveAction<T>(_ action: TBTargetAction<T>) {
-        if let index = targetActionHolder.targetActions.index(where: {$0 === action}) {
+        if let index = targetActionHolder.targetActions.firstIndex(where: {$0 === action}) {
             removeTarget(action, action: action.actionSelector, for: UIControl.Event.allEvents)
             targetActionHolder.targetActions.remove(at: index)
 
